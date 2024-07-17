@@ -253,7 +253,7 @@ class BAdamArgument:
 @dataclass
 class FinetuningArguments(FreezeArguments, LoraArguments, RLHFArguments, GaloreArguments, BAdamArgument):
     r"""
-    Arguments pertaining to which techniques we are going to fine-tuning with.
+    Arguments pertaining to which techniques we are going to fine-tune with.
     """
 
     pure_bf16: bool = field(

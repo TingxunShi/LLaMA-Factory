@@ -464,5 +464,29 @@
     "columns": {
       "prompt": "text"
     }
+  },
+  "wechat_translation": {
+    "file_name": "wechat.translation.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "flores_enzh": {
+    "file_name": "flores.enzh.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "flores_zhen": {
+    "file_name": "flores.zhen.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
   }
 }
